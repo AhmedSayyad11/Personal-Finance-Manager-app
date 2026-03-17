@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pfm_green">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/pfm_white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default Home Period"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spDefaultPeriod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSavePeriod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Default Period"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/pfm_black"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Theme"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnApplyTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply Theme"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/pfm_green"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manage Categories"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spCatType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etNewCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New category name"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#808080"/>
+
+        <Button
+            android:id="@+id/btnAddCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Category"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/pfm_green"
+            android:textColor="@android:color/white"/>
+
+        <ListView
+            android:id="@+id/listCategories"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="12dp" />
+    </LinearLayout>
+</ScrollView>

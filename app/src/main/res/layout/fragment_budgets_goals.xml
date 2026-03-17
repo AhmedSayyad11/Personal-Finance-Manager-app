@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budgets &amp; Goals"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Monthly Budget per Expense Category"
+            android:layout_marginTop="12dp"/>
+
+        <Spinner
+            android:id="@+id/spBudgetCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/etBudgetLimit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Limit amount"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#808080"/>
+
+        <Button
+            android:id="@+id/btnAddBudget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Budget"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/pfm_green"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budgets List (Tap to Edit, Long Press to Delete)"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <ListView
+            android:id="@+id/listBudgets"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>

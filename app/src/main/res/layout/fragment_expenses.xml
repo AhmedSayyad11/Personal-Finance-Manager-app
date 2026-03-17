@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spCategoryExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/etAmountExp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#808080"/>
+
+    <EditText
+        android:id="@+id/etDescExp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#808080"/>
+
+    <Button
+        android:id="@+id/btnPickDateExp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Date"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/pfm_green"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvDateExp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: (not set)"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btnAddExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Expense"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/pfm_green"
+        android:textColor="@android:color/white"/>
+
+    <ListView
+        android:id="@+id/listExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <color name="pfm_white">#FFFFFF</color>
+    <color name="pfm_black">#111111</color>
+    <color name="pfm_green">#16A34A</color>
+    <color name="pfm_green_dark">#0F7A33</color>
+    <color name="pfm_gray_bg">#F5F6F7</color>
+</resources>
