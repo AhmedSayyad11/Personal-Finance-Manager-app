@@ -1,4 +1,4 @@
-# 📱 Personal Finance Manager
+# 📱 Personal Finance Manager app
 
 A mobile Android application developed as part of the ENCS5150 course project at Birzeit University.  
 The app helps users manage their personal finances by tracking income, expenses, budgets, and financial summaries.
