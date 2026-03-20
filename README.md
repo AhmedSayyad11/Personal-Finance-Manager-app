@@ -54,10 +54,10 @@ The app helps users manage their personal finances by tracking income, expenses,
     edu.birzeit.courseproject
     │
     ├── activities
-│   ├── LoginActivity
-│   ├── SignupActivity
-│   └── MainDrawerActivity
-│
+    │   ├── LoginActivity
+    │   ├── SignupActivity
+    │   └── MainDrawerActivity
+    │
 ├── fragments
 │   ├── HomeFragment
 │   ├── IncomeFragment
