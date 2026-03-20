@@ -58,21 +58,21 @@ The app helps users manage their personal finances by tracking income, expenses,
     │   ├── SignupActivity
     │   └── MainDrawerActivity
     │
-├── fragments
-│   ├── HomeFragment
-│   ├── IncomeFragment
-│   ├── ExpensesFragment
-│   ├── BudgetsGoalsFragment
-│   ├── SettingsFragment
-│   └── ProfileFragment
-│
-├── data
-│   ├── DBHelper
-│   ├── UserRepo
-│   ├── TransactionRepo
-│   ├── CategoryRepo
-│   └── BudgetRepo
-│
+    ├── fragments
+    │   ├── HomeFragment
+    │   ├── IncomeFragment
+    │   ├── ExpensesFragment
+    │   ├── BudgetsGoalsFragment
+    │   ├── SettingsFragment
+    │   └── ProfileFragment
+    │
+    ├── data
+    │   ├── DBHelper
+    │   ├── UserRepo
+    │   ├── TransactionRepo
+    │   ├── CategoryRepo
+    │   └── BudgetRepo
+    │
 ├── utils
 │   ├── PrefManager
 │   └── validators
