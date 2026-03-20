@@ -73,9 +73,9 @@ The app helps users manage their personal finances by tracking income, expenses,
     │   ├── CategoryRepo
     │   └── BudgetRepo
     │
-├── utils
-│   ├── PrefManager
-│   └── validators
+    ├── utils
+    │   ├── PrefManager
+    │   └── validators
 ---
 
 ## 🗄️ Database Design (SQLite)
