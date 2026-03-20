@@ -50,9 +50,10 @@ The app helps users manage their personal finances by tracking income, expenses,
 ---
 
 ## 🏗️ Project Structure
-edu.birzeit.courseproject
-│
-├── activities
+
+    edu.birzeit.courseproject
+    │
+    ├── activities
 │   ├── LoginActivity
 │   ├── SignupActivity
 │   └── MainDrawerActivity
@@ -75,3 +76,56 @@ edu.birzeit.courseproject
 ├── utils
 │   ├── PrefManager
 │   └── validators
+---
+
+## 🗄️ Database Design (SQLite)
+
+The app uses a local SQLite database (`pfm.db`) with the following tables:
+
+### users
+- email (PK)
+- first_name
+- last_name
+- password
+
+### transactions
+- id (PK)
+- user_email
+- type (INCOME / EXPENSE)
+- category
+- amount
+- note
+- date
+
+### categories
+- id (PK)
+- user_email
+- type
+- name
+
+### budgets
+- id (PK)
+- user_email
+- category
+- monthly_limit
+
+---
+
+## 🧠 Technologies Used
+
+- Java
+- Android SDK
+- SQLite (Local Database)
+- SharedPreferences
+- MPAndroidChart (Charts)
+- Material Design Components
+
+---
+
+## 🔄 Data Handling
+
+- All financial data is stored locally using SQLite
+- User session and settings are managed using SharedPreferences
+- Data is filtered and aggregated using SQL queries
+
+---
