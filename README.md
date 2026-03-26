@@ -129,3 +129,6 @@ The app uses a local SQLite database (`pfm.db`) with the following tables:
 - Data is filtered and aggregated using SQL queries
 
 ---
+## Ahmed sayyad
+
+Computer Engineering graduate interested in AI, ML and Generative AI.
